@@ -15,6 +15,9 @@ public class main {
         int[] b4 = {4, 5, 6};
         int[] result4 = middleWay(a4,b4);
         System.out.println("Task 4:[" + result4[0] +"," +  result4[1] + "]");
+        // task5
+        int[] nums5 = {4, 5};
+        System.out.println("Task5:"+ no23(nums5));
 
     }
     public static boolean firstLast6(int[] nums) {
@@ -31,4 +34,8 @@ public static int [] reverse3(int[] nums){
 public static int[] middleWay (int[]a4, int[]b4){
         return new int[] {a4[1], b4[1]};
 }
+// task5
+    public static boolean no23 (int[] nums) {
+        return (nums[0] != 2 && nums [0] != 3 && nums[1] != 2 && nums[1] != 3);
+    }
     }
